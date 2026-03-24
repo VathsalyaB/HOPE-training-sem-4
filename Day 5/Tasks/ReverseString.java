@@ -5,7 +5,7 @@ class ReverseString {
         char[] arr = {'h', 'e', 'l', 'l', 'o'};
         reverseString(arr);
 
-        System.out.println(Arrays.toString(arr)); // [o, l, l, e, h]
+        System.out.println(Arrays.toString(arr)); 
     }
     public static void reverseString(char[] s) {
         int left = 0, right = s.length - 1;
