@@ -1,4 +1,5 @@
-public class LinkedHashSet {
+import java.util.*;
+public class LinkedHashSetImplementation {
     public static void main(String[] args) {
             Set<Integer> set = new LinkedHashSet<>();
             set.add(1);
